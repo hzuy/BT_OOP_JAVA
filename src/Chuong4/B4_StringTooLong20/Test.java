@@ -1,13 +1,14 @@
-package Chuong4.B3_StringTooLong;
+package Chuong4.B4_StringTooLong20;
 
-import java.sql.SQLOutput;
+import Chuong4.B3_StringTooLong.Nhap;
+
 import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("nhap vao mot chuoi nho hon 30 ki tu : ");
-        String nhap = sc.next();
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Nhap vao chuoi nho hon 20 ki tu : ");
+        String nhap=sc.next();
         try {
             Nhap N1 = new Nhap(nhap);
         } catch (Exception e) {
@@ -21,8 +22,7 @@ public class Test {
             if(done.equals("DONE")){
                 System.out.println("thoat chuong trinh !!");
             }
-
-                break;
+            break;
         }while(!done.equals("DONE"));
     }
 }
