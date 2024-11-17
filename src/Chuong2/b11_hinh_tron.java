@@ -9,5 +9,7 @@ public class b11_hinh_tron {
         float bankinh=sc.nextFloat();
         float dientich= (float) ((Math.PI)*(Math.pow(bankinh,2)));
         float chuvi= (float) (2*bankinh*Math.PI);
+        System.out.println("dien tich hinh tron la : "+dientich);
+        System.out.println("chu vi hinh tron la : "+chuvi);
     }
 }
