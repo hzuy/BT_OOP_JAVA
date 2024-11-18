@@ -14,7 +14,8 @@ public class b5_nhap_xuat {
         System.out.println("nhap vao mot ki tu : ");
         char kitu=sc.next().charAt(0);
         System.out.println("nhap vao mot chuoi ki tu : ");
-        String chuoi=sc.next();
+        sc.nextLine();
+        String chuoi=sc.nextLine();
 
         //xuat ra
         System.out.println("so nguyen vua nhap la : "+n);
